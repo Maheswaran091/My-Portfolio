@@ -7,10 +7,12 @@
 
 body {
     background-color: rgb(182, 179, 179);
+    
 }
 
 body::before {
     /* width: 96.62vw; */
+    
     width: 100vw;
     height: 100vh;
     /* content: ""; */
@@ -1055,7 +1057,7 @@ body::before {
 }
 
 #get-in-touch .media-links a{
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
 }
 
@@ -1090,4 +1092,19 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:350px){
+    
+    .middle .content .name{
+        font-size:35px;
+    }
+    #about-me .about-content p{
+        font-size:8px;
+    }
+
+    .footer-copy{
+        color: #1e3ebe;
+        font-size: 13px;
+    }
 }
