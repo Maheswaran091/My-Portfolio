@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="profile.jpg" style="border-radius: 110px;">
+    <title>Certificates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="certificates.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <a href="#">
+                <h1>
+                    <span class="leftM">M</span>
+                    <span class="A">A</span>
+                    <span class="H">H</span>
+                    <span class="E">E</span>
+                    <span class="S">S</span>
+                    <span class="W">W</span>
+                    <span class="A">A</span>
+                    <span class="R">R</span>
+                    <span class="A">A</span>
+                    <span class="N">N</span>
+                    <span>.</span>
+                    <span class="rightM">M</span>
+                </h1>
+            </a>
+        </div>
+        <ul class="right">
+            <a href="index.html">
+                <p>Home</p>
+            </a>
+            <a href="index.html#projects">
+                <p>Projects</p>
+            </a>
+            <a href="index.html#skills">
+                <p>Skills</p>
+            </a>
+            <a href="#">
+                <p>Certificates</p>
+            </a>
+            <a href="index.html#about-me">
+                <p>About</p>
+            </a>
+            <a href="index.html#contact">
+                <p>Contact</p>
+            </a>
+        </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <div id="container">
+        <h1><span>CERTIFICATES</span></h1>
+        <div class="certificates">
+            <div class="img"><img src="image/Certificates/CSS&JS img.png" alt="">
+            <p>CSS & JavaScript</p>
+            </div>
+            <div class="img"><img src="image/Certificates/Core python.jpg" alt="">
+             <p>Core Python</p></div>
+            <div class="img"><img src="image/Certificates/Mechine Learning internship.jpeg" alt="">
+             <p>Machine Learning In Python</p></div>
+            <div class="img"><img src="image/Certificates/Novi tech.png" alt="">
+             <p>FullStack Development</p></div>
+            <div class="img"><img src="image/Certificates/GuviCertification - F77GN2YT186257469q.png" alt="">
+             <p>AI</p></div>
+            <div class="img"><img src="image/Certificates/PCB workshop.jpeg" alt="">
+             <p>PCB Design WorkShop</p></div>
+
+        </div>
+    </div>
+    <script>
+        const menu = document.querySelector('.menu')
+        const menuList = document.querySelector('nav ul')
+        menu.addEventListener('click', () => {
+            menuList.classList.toggle('showmenu')
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
