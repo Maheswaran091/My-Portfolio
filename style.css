@@ -3,9 +3,11 @@
 * {
     margin: 0%;
     padding: 0%;
+    
 }
 
 body {
+    overflow-x: hidden;
     background-color: rgb(182, 179, 179);
     
 }
@@ -327,6 +329,8 @@ body::before {
 
 .img img {
     width: 300px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 300px;
     transition: 1s;
 }
@@ -1096,15 +1100,21 @@ body::before {
 
 @media screen and (max-width:350px){
     
-    .middle .content .name{
-        font-size:35px;
+    .middle .content .hai{
+        font-size:14vw;
     }
+    .middle .content .name{
+        font-size:10vw;
+    }
+    .middle .content .role{
+        font-size:8vw;
+    }
+    
     #about-me .about-content p{
-        font-size:8px;
+        font-size:12px;
     }
 
     .footer-copy{
-        color: #1e3ebe;
-        font-size: 13px;
+        font-size: 11px;
     }
 }
